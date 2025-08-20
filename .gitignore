@@ -1,0 +1,8 @@
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Secrets
+Recepten-app/Info.plist
+Recepten-app/Secrets.xcconfig
