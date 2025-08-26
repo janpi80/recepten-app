@@ -37,5 +37,12 @@ struct RecipeDetailView: View {
         }
         .navigationTitle(recipe.naam_kort)
         .navigationBarTitleDisplayMode(.inline)
+        // 📌 Schermbeheer
+        .onAppear {
+            ScreenAwakeManager.shared.keepScreenOn()
+        }
+        .onDisappear {
+            ScreenAwakeManager.shared.allowScreenSleep()
+        }
     }
 }
