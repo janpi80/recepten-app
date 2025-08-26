@@ -1,7 +1,16 @@
-# Xcode
+# Xcode build files & user data
 DerivedData/
+build/
+*.xcworkspace
 xcuserdata/
 *.xcuserstate
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+
+# macOS system files
+.DS_Store
 
 # Secrets
 Recepten-app/Info.plist
